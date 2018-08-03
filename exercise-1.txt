@@ -1,0 +1,49 @@
+-------------------------------
+no.1
+STORE "force" with any value
+STORE "mass" with value 600
+STORE "acceleeration" with value 2
+
+CALCULATE "mass" times "acceleration"
+SET "force" value with calculation result
+
+DISPLAY "force"
+
+-------------------------------
+no.2
+
+STORE "tahun" with any value
+
+CALCULATE
+IF year%4 = 0 AND year%100 != 0 OR year%400 = 0
+      PRINT tahun is tahun kabisat
+   ELSE
+      PRINT tahun is not tahun kabisat
+   END IF
+
+----------------------------
+no.3
+
+STORE "jumlah baju" with 1
+
+WHILE "jumlah baju" <= 20
+  ADD "jumlah baju" by 1
+
+
+DISPLAY "semua baju telah tercuci"
+
+
+---------------------------
+no.4
+
+STORE "students" with value 1
+SET "kuku" with any value 
+
+WHILE "students" <= 40 
+   ADD "students" by 1
+  IF "kuku" equals to "panjang"
+    DISPLAY "hukum students"
+  ELSE
+    DISPLAY "puji students"
+  ENDIF
+ END WHILE   
